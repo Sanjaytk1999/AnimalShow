@@ -1,0 +1,27 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Basic button style */
+button {
+    background-color: #4CAF50;  /* Green background */
+    color: white;               /* White text */
+    border: none;               /* No border */
+    padding: 10px 20px;         /* Padding around text */
+    text-align: center;         /* Center text */
+    text-decoration: none;      /* Remove underline */
+    display: inline-block;      /* Make it inline-block */
+    font-size: 16px;            /* Set font size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    border-radius: 5px;         /* Rounded corners */
+    transition: background-color 0.3s ease;  /* Smooth transition */
+  }
+  .animal-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
